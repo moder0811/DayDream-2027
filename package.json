@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@types/react": "^19.3.3",
+    "@types/react-dom": "^19.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "typescript": "^7.0.2",
+    "vite": "^8.4.0"
+  },
+  "name": "daydream-2027",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/validate-quizzes.mjs && tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "private": true
+}
